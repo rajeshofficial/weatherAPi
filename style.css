@@ -22,10 +22,11 @@
 }
 
 .search button {
-    border-radius: 10px;
+    border-radius: 47px;
     height: 45px;
-    width: 50px;
-    margin-left: .2px; /* Adjusted margin to create space between input and button */
+    width: 51px;
+    margin-left: 13.2px;
+    border-color: black;
 }
 
 .search input {
