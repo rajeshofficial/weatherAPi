@@ -95,3 +95,31 @@ margin-right: 120px;
         font-size: 18px;
 
 }
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 55%;
+        max-width: 380px;
+        margin: 155px 130px 0;
+        padding: 40px 35px;
+        border-radius: 37px;
+      
+    }
+    .details {
+    padding: 0 0px;
+    margin-top: 92px;
+   
+}
+.col {
+    text-align: left;
+    padding-left: 5px;
+}
+.search input {
+    width: 199px;
+    height: 38px;
+    border-radius: 10px;
+    margin-right: 1px;
+    font-size: 15px;
+
+
+  }
+ 

@@ -36,9 +36,19 @@ else if(data.weather[0].main== "Clear"){
 }
 searchbtn.addEventListener("click", ()=>{
     checkweather(searchbox.value);
+    searchbox.value=" ";
 }
 
 );
+
+// Add keydown event listener to search box
+searchbox.addEventListener("keydown", (event) => {
+    // Check if the pressed key is the "Enter" key (key code 13)
+    if (event.keyCode === 13) {
+        checkweather(searchbox.value);
+        searchbox.value = " ";
+    }
+});
 
 
 
