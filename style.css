@@ -95,17 +95,18 @@ margin-right: 120px;
         font-size: 18px;
 
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
     
     .card {
         width: 76%;
         max-width: 380px;
-        margin: 6px;
+        margin-left: 7px;
+        margin-left: 7px;
         margin-top: 70px;
-        padding: 40px 35px;
+        padding: 40px 29px;
         border-radius: 37px;
     }
-    .card p {
+ .card p {
  
         font-size: 15px;
     }
