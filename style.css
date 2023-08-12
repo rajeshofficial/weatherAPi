@@ -54,6 +54,12 @@
     margin-top: -10px;
 
 }
+.weather h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -35px;
+
+}
 .details{
     display: flex;
     align-items: center;
